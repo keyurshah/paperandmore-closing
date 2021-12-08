@@ -103,14 +103,31 @@
     <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.5.0/dist/lazyload.min.js"></script>
     <script>
-      var images = document.querySelectorAll('.block-content-section img');
+      var imageEls = document.querySelectorAll('.block-content-section img');
+      var imageGalleryEls = document.querySelectorAll('.image-gallery');
       var modalImgSrcEl = document.querySelector('#modal-1 .image-src');
       var modalImgDownloadEl = document.querySelector('#modal-1 .image-download');
       var modalImgCaptionEl = document.querySelector('#modal-1 .image-caption');
 
+      // format image gallery to two column
+      Array.from(imageGalleryEls).forEach(function (el) {
+        var divClass = "flex flex-wrap -mx-2".split(' ');
+        divClass.forEach(function (val) {
+          el.classList.add(val);
+        });
+
+        var figureEls = el.querySelectorAll('figure');
+        Array.from(figureEls).forEach(function (el2) {
+          var figureClass = "px-2 my-2 md:w-1/2 w-full cursor-pointer h-full block md:flex p-1 border hover:shadow rounded-lg text-xs text-center hover:bg-gray-200".split(' ');
+          figureClass.forEach(function (val) {
+            el2.classList.add(val);
+          });
+        });
+      });
+
       // get all image inside content section block
       // then assign event listener, onclick show HTMX modal
-      Array.from(images).forEach(function (el) {
+      Array.from(imageEls).forEach(function (el) {
         var imageClass = "cursor-pointer transition shadow-lg hover:opacity-75 lazy w-full rounded-lg".split(' ');
         imageClass.forEach(function (val) {
           el.classList.add(val);
