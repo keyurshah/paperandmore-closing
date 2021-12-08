@@ -61,7 +61,7 @@
               <div class="flex items-center justify-between w-full md:w-auto">
                 <a href="#">
                   <span class="sr-only">Paper and More</span>
-                  <img class="h-8 w-auto sm:h-9" src="./images/paperandmore_logo_no_catchline_1_250x.png" alt="">
+                  <img class="lazy h-8 w-auto sm:h-9" data-src="./images/paperandmore_logo_no_catchline_1_250x.png" alt="">
                 </a>
                 <!-- mobile menu -->
               </div>
@@ -98,7 +98,7 @@
           </h1>
           <div class="my-12 flex justify-center">
             <figure>
-              <img class="" src="./images/illustration-lime.png" alt="" width="360">
+              <img class="lazy" data-src="./images/illustration-lime.png" alt="" width="360" height="360">
             </figure>
           </div>
           <div class="">
@@ -163,7 +163,7 @@
           Dzulfikar, Lyssette, Sukhwinder, Alex, Steven, Jorge, Eddie, Adriana, Margaret, Christine and the many more of us.. Could NOT have done this without you! 💝
         </p>
         <figure>
-          <img class="w-full rounded-lg" src="./images/image-1.jpg" alt="" width="720">
+          <img class="lazy w-full rounded-lg" data-src="./images/image-1.jpg" alt="" width="720">
           <figcaption>Sagittis scelerisque nulla cursus in enim consectetur quam.</figcaption>
         </figure>
         <p>
@@ -173,7 +173,7 @@
           2 years later we moved to a 2,500 sq ft office, then 5,000 and our final move to this 10,000 sq ft fulfillment center which housed incredible equipment that produced the papers, pockets and envelopes we love so much!
         </p>
         <figure>
-          <img class="w-full rounded-lg" src="./images/image-2.jpg" alt="" width="720">
+          <img class="lazy w-full rounded-lg" data-src="./images/image-2.jpg" alt="" width="720">
           <figcaption>Sagittis scelerisque nulla cursus in enim consectetur quam.</figcaption>
         </figure>
         <p>
@@ -217,7 +217,11 @@
     </div>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.5.0/dist/lazyload.min.js"></script>
   <script>
+    var lazyLoadInstance = new LazyLoad({
+      // Your custom settings go here
+    });
     // document.addEventListener('DOMContentLoaded', function (event) {
     //   document.querySelectorAll('[x-cloak]').forEach(function (el) {
     //     el.style.display = 'inherit';
