@@ -4,13 +4,12 @@
 
 layout: default
 subtitle: a Love Letter
-title: Going out of business 
+title: Thank You For 19 Wonderful Years!
 
-hero_title_left: Going Out of Business
-hero_title_right: Announcement
-hero_image: /assets/images/illustration-lime.png
-hero_content: 
-    Going out of business.. Starting from our 1 bedroom apartment with 6 orders per day, it’s humbling to have over 1,000,000 orders to date. That’s 50,000 orders filled each year… packed with love by our incredible team!! The first year was just my husband and me after we were laid off in 2002, two months after being married. We then grew to a staff we are proud to call family!
+hero_title_left: Going Out of Business Announcement
+hero_title_right: ''
+hero_image: ''
+hero_content: ''
 
 ---
 
@@ -139,4 +138,5 @@ Forever grateful, with love,
 *Shilpa and Keyur Shah*
 
 
-credit : illustration by [stories - www.freepik.com](https://www.freepik.com/free-vector/closed-sign-concept-illustration_13106804.htm){:target="_blank"}
+[comment]: <> (credit : illustration by [stories - www.freepik.com]&#40;https://www.freepik.com/free-vector/closed-sign-concept-illustration_13106804.htm&#41;{:target="_blank"})
+[View On Instagram](**https://www.instagram.com/p/CV83IqXv-Tk/**){:target="_blank"}

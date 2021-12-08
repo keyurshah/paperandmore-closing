@@ -47,19 +47,19 @@
 
       {% include pattern_top.html %}
 
-      <div class="relative pt-6 pb-16 sm:pb-24">
+      <div class="relative pt-6 pb-8 sm:pb-8">
         {% include header.html %}
 
         <!-- HERO SECTION -->
-        {% if page.hero_title_left %}
+        {% if page.hero_title_left and page.hero_title_left != '' %}
         <main class="mt-12 mx-auto max-w-7xl px-4 sm:mt-16">
           <div class="text-center">
-            <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+            <h1 class="text-2xl tracking-tight font-extrabold text-gray-900 sm:text-xl md:text-2xl">
               <span class="block xl:inline">{{ page.hero_title_left }}</span>
               <span class="block text-primary xl:inline">{{ page.hero_title_right }}</span>
             </h1>
 
-            {% if page.hero_image %}
+            {% if page.hero_image and page.hero_image != '' %}
               <div class="my-12 flex justify-center">
                 <figure>
                   <img class="lazy" data-src="{{ page.hero_image | relative_url }}" alt="" width="360" height="360">
