@@ -44,11 +44,10 @@
     <!-- reference : https://tailwindui.com/components/marketing/sections/heroes -->
     <div class="relative bg-primary-50 overflow-hidden">
 
-
-      {% include "pattern_top.html" %}
+      {% include pattern_top.html %}
 
       <div class="relative pt-6 pb-16 sm:pb-24">
-        {% include "header.html" %}
+        {% include header.html %}
 
         <!-- HERO SECTION -->
         {% if page.hero_title_left %}
@@ -82,7 +81,7 @@
     <!-- reference : https://tailwindui.com/components/marketing/sections/content-sections -->
     <div class="relative py-16 bg-white overflow-hidden border-t border-primary">
 
-      {% include "pattern_bottom.html" %}
+      {% include pattern_bottom.html %}
 
       <div class="relative px-4 sm:px-6 lg:px-8">
         <div class="text-lg max-w-prose mx-auto">
@@ -91,16 +90,28 @@
             <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">{{ page.title }}</span>
           </h1>
         </div>
-        <div class="mt-12 prose prose-indigo prose-lg text-gray-500 mx-auto">
+        <div class="block-content-section mt-12 prose prose-indigo prose-lg text-gray-500 mx-auto">
           {{ content }}
         </div>
       </div>
     </div>
 
-    {% include "footer.html" %}
+    {% include footer.html %}
 
     <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.5.0/dist/lazyload.min.js"></script>
     <script>
+      var images = document.querySelectorAll('.block-content-section img');
+      // get all image inside content section block
+      // then assign event listener, onclick show HTMX modal
+      Array.from(images).forEach(function (el) {
+        "cursor-pointer lazy w-full rounded-lg".split(' ').forEach(function (val) {
+          el.classList.add(val);
+        });
+        el.addEventListener('click', function(ev) {
+          // TODO - initiate modal show here
+        });
+      });
+
       var lazyLoadInstance = new LazyLoad({
         // Your custom settings go here
       });

@@ -23,7 +23,7 @@ Keyur’s brother, Ashish, joined us early on. His parents, aunt, cousin Mishal 
 Dzulfikar, Lyssette, Sukhwinder, Alex, Steven, Jorge, Eddie, Adriana, Margaret, Christine and the many more of us.. Could NOT have done this without you! 💝
 
 <figure>
-    <img class="lazy w-full rounded-lg" data-src="/assets/images/image-1.jpg" alt="" width="720">
+    <img data-src="/assets/images/image-1.jpg" alt="" width="720">
     <figcaption>Sagittis scelerisque nulla cursus in enim consectetur quam.</figcaption>
 </figure>
 
@@ -32,7 +32,7 @@ I remember the day this sign went up, it felt unreal. We moved our apartment to 
 2 years later we moved to a 2,500 sq ft office, then 5,000 and our final move to this 10,000 sq ft fulfillment center which housed incredible equipment that produced the papers, pockets and envelopes we love so much!
 
 <figure>
-    <img class="lazy w-full rounded-lg" data-src="/assets/images/image-2.jpg" alt="" width="720">
+    <img data-src="/assets/images/image-2.jpg" alt="" width="720">
     <figcaption>Sagittis scelerisque nulla cursus in enim consectetur quam.</figcaption>
 </figure>
 
