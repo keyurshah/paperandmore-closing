@@ -33,11 +33,14 @@ I'm forever indebted to them all, as they treated my dreams as their own! Thank 
 <table>
     <tbody>
         <tr>
-            <td>
-                We built something truly unique &amp; special. Before the days of ready-made-sites; we developed our own website by reading dozens of books, and built our production/fulfillment/full operations center from <br>
-                the ground up... this became a giant we'd never imagined could be. <br>
-                <br>
-                But what is built is nothing without who you build with..
+            <td class="text-lg">
+                <p>
+                    We built something truly unique &amp; special. Before the days of ready-made-sites; we developed our own website by reading dozens of books, and built our production/fulfillment/full operations center from <br>
+                    the ground up... this became a giant we'd never imagined could be. <br>
+                </p>
+                <p>
+                    But what is built is nothing without who you build with..
+                </p>
             </td>
             <td>
                 <figure>
@@ -66,7 +69,7 @@ Dzulfikar, Lyssette, Sukhwinder, Alex, Steven, Jorge, Eddie, Adriana, Margaret, 
                     <figcaption>(our address sign)</figcaption>
                 </figure>
             </td>
-            <td>
+            <td class="text-lg">
                 <p>
                     I remember the day this sign went up, it felt unreal. We moved our apartment to a 1,000 sq ft office space in 2005, just 2 weeks after our first daughter was born!
                 </p>

@@ -37,6 +37,9 @@
         .border-primary {
             border-color: #e8f2ca;
         }
+        .max-w-none {
+            max-width: none !important;
+        }
     </style>
   </head>
 
@@ -47,12 +50,12 @@
 
       {% include pattern_top.html %}
 
-      <div class="relative pt-6 pb-8 sm:pb-8">
+      <div class="max-w-screen-lg mx-auto relative pt-6 pb-8 sm:pb-8">
         {% include header.html %}
 
         <!-- HERO SECTION -->
         {% if page.hero_title_left and page.hero_title_left != '' %}
-        <main class="mt-12 mx-auto max-w-7xl px-4 sm:mt-16">
+        <main class="mt-12 max-w-screen-lg mx-auto px-4 sm:mt-16">
           <div class="text-center">
             <h1 class="text-2xl tracking-tight font-extrabold text-gray-900 sm:text-xl md:text-2xl">
               <span class="block xl:inline">{{ page.hero_title_left }}</span>
@@ -84,14 +87,14 @@
 
       {% include pattern_bottom.html %}
 
-      <div class="relative px-4 sm:px-6 lg:px-8">
-        <div class="text-lg max-w-prose mx-auto">
+      <div class="max-w-screen-lg mx-auto relative px-4 sm:px-6 lg:px-8">
+        <div class="text-lg mx-auto">
           <h1>
             <span class="block text-base text-center text-primary font-semibold tracking-wide uppercase">{{ page.subtitle }}</span>
             <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">{{ page.title }}</span>
           </h1>
         </div>
-        <div class="block-content-section mt-12 prose prose-indigo prose-lg text-gray-500 mx-auto">
+        <div class="block-content-section mt-12 prose max-w-none prose-indigo prose-lg text-gray-500 mx-auto">
           {{ content }}
         </div>
       </div>
@@ -124,7 +127,7 @@
 
       // format image gallery to two column
       Array.from(imageGalleryEls).forEach(function (el) {
-        addClasses(el, 'flex flex-wrap -mx-2');
+        addClasses(el, 'flex flex-wrap -mx-2 mb-16');
 
         var figureEls = el.querySelectorAll('figure');
         Array.from(figureEls).forEach(function (el2) {
