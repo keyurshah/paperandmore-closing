@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/@tailwindcss/typography@0.4.x/dist/typography.min.css" />
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}" />
+    <link rel="stylesheet" href="{{ "/assets/css/micromodal.css" | relative_url }}" />
     <style>
         /*[x-cloak] {*/
         /*    display: none;*/
@@ -97,19 +98,39 @@
     </div>
 
     {% include footer.html %}
+    {% include modal_micromodal.html %}
 
+    <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.5.0/dist/lazyload.min.js"></script>
     <script>
       var images = document.querySelectorAll('.block-content-section img');
+      var modalImgSrcEl = document.querySelector('#modal-1 .image-src');
+      var modalImgDownloadEl = document.querySelector('#modal-1 .image-download');
+
       // get all image inside content section block
       // then assign event listener, onclick show HTMX modal
       Array.from(images).forEach(function (el) {
-        "cursor-pointer lazy w-full rounded-lg".split(' ').forEach(function (val) {
+        var imageClass = "cursor-pointer lazy w-full rounded-lg".split(' ');
+        imageClass.forEach(function (val) {
           el.classList.add(val);
         });
-        el.addEventListener('click', function(ev) {
-          // TODO - initiate modal show here
+
+        // initiate micromodal event listener
+        el.setAttribute('data-micromodal-trigger', 'modal-1');
+        el.addEventListener('click', function(event) {
+          // set modal image src on image click
+          if (modalImgSrcEl) {
+            modalImgSrcEl.src = event.target.src;
+            modalImgDownloadEl.href = event.target.src;
+          }
         });
+      });
+
+      // initiate micromodal
+      MicroModal.init({
+        onShow: function(modal) {
+          // console.info(`${modal.id} is shown`)
+        },
       });
 
       var lazyLoadInstance = new LazyLoad({
