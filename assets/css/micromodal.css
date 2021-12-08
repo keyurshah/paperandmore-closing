@@ -2,11 +2,6 @@
   Basic Modal Styles
   credit : https://gist.github.com/ghosh/4f94cf497d7090359a5c9f81caf60699
 \**************************/
-
-.modal {
-    font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
-}
-
 .modal__overlay {
     position: fixed;
     top: 0;

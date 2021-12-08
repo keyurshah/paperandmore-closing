@@ -106,11 +106,12 @@
       var images = document.querySelectorAll('.block-content-section img');
       var modalImgSrcEl = document.querySelector('#modal-1 .image-src');
       var modalImgDownloadEl = document.querySelector('#modal-1 .image-download');
+      var modalImgCaptionEl = document.querySelector('#modal-1 .image-caption');
 
       // get all image inside content section block
       // then assign event listener, onclick show HTMX modal
       Array.from(images).forEach(function (el) {
-        var imageClass = "cursor-pointer lazy w-full rounded-lg".split(' ');
+        var imageClass = "cursor-pointer transition shadow-lg hover:opacity-75 lazy w-full rounded-lg".split(' ');
         imageClass.forEach(function (val) {
           el.classList.add(val);
         });
@@ -118,10 +119,20 @@
         // initiate micromodal event listener
         el.setAttribute('data-micromodal-trigger', 'modal-1');
         el.addEventListener('click', function(event) {
-          // set modal image src on image click
+          // reset value inside modal
+          modalImgCaptionEl.innerHTML = '';
+          modalImgSrcEl.src = '';
+          modalImgDownloadEl.href = '';
+
+          // set modal image src and caption on image click
+          var imageEl = event.target;
+          var imageCaptionEl = imageEl.parentElement.querySelector('figcaption');
           if (modalImgSrcEl) {
-            modalImgSrcEl.src = event.target.src;
-            modalImgDownloadEl.href = event.target.src;
+            modalImgSrcEl.src = imageEl.src;
+            modalImgDownloadEl.href = imageEl.src;
+          }
+          if (imageCaptionEl) {
+            modalImgCaptionEl.innerHTML = imageCaptionEl.innerHTML;
           }
         });
       });
