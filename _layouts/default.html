@@ -43,65 +43,14 @@
     <!-- HERO SECTION -->
     <!-- reference : https://tailwindui.com/components/marketing/sections/heroes -->
     <div class="relative bg-primary-50 overflow-hidden">
-      <div class="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full" aria-hidden="true">
-        <div class="relative h-full max-w-7xl mx-auto">
-          <svg x-cloak class="absolute right-full transform translate-y-1/4 translate-x-1/4 lg:translate-x-1/2" width="404" height="784" fill="none" viewBox="0 0 404 784">
-            <defs>
-              <pattern id="f210dbf6-a58d-4871-961e-36d5016a0f49" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-              </pattern>
-            </defs>
-            <rect width="404" height="784" fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)" />
-          </svg>
-          <svg x-cloak class="absolute left-full transform -translate-y-3/4 -translate-x-1/4 md:-translate-y-1/2 lg:-translate-x-1/2" width="404" height="784" fill="none" viewBox="0 0 404 784">
-            <defs>
-              <pattern id="5d0dd344-b041-4d26-bec4-8d33ea57ec9b" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-              </pattern>
-            </defs>
-            <rect width="404" height="784" fill="url(#5d0dd344-b041-4d26-bec4-8d33ea57ec9b)" />
-          </svg>
-        </div>
-      </div>
+
+
+      {% include "pattern_top.html" %}
 
       <div class="relative pt-6 pb-16 sm:pb-24">
-        <!-- HEADER MENU -->
-        <div>
-          <div class="max-w-7xl mx-auto px-4 sm:px-6">
-            <nav class="relative flex items-center justify-between sm:h-10 md:justify-center" aria-label="Global">
-              <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
-                <div class="flex items-center justify-between w-full md:w-auto">
-                  <a href="/">
-                    <span class="sr-only">{{ site.title }}</span>
-                    <img class="lazy h-8 w-auto sm:h-9" data-src="{{ "/assets/images/paperandmore_logo_no_catchline_1_250x.png" | relative_url }}" alt="">
-                  </a>
-                  <!-- mobile menu -->
-                </div>
-              </div>
-              <!-- put header menu here -->
-              <div class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
-                <span class="inline-flex rounded-md shadow">
-                  <a href="mailto:{{site.email}}" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-gray-500 bg-white hover:bg-gray-50">
-                    Send virtual hug 🤗
-                  </a>
-                </span>
-              </div>
-            </nav>
-          </div>
+        {% include "header.html" %}
 
-          <!--
-            Mobile menu, show/hide based on menu open state.
-
-            Entering: "duration-150 ease-out"
-              From: "opacity-0 scale-95"
-              To: "opacity-100 scale-100"
-            Leaving: "duration-100 ease-in"
-              From: "opacity-100 scale-100"
-              To: "opacity-0 scale-95"
-          -->
-          <!-- mobile menu here -->
-        </div>
-
+        <!-- HERO SECTION -->
         {% if page.hero_title_left %}
         <main class="mt-12 mx-auto max-w-7xl px-4 sm:mt-16">
           <div class="text-center">
@@ -132,34 +81,9 @@
     <!-- PAGE CONTENT -->
     <!-- reference : https://tailwindui.com/components/marketing/sections/content-sections -->
     <div class="relative py-16 bg-white overflow-hidden border-t border-primary">
-      <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
-        <div class="relative h-full text-lg max-w-prose mx-auto" aria-hidden="true">
-          <svg class="absolute top-12 left-full transform translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384">
-            <defs>
-              <pattern id="74b3fd99-0a6f-4271-bef2-e80eeafdf357" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-              </pattern>
-            </defs>
-            <rect width="404" height="384" fill="url(#74b3fd99-0a6f-4271-bef2-e80eeafdf357)" />
-          </svg>
-          <svg class="absolute top-1/2 right-full transform -translate-y-1/2 -translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384">
-            <defs>
-              <pattern id="f210dbf6-a58d-4871-961e-36d5016a0f49" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-              </pattern>
-            </defs>
-            <rect width="404" height="384" fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)" />
-          </svg>
-          <svg class="absolute bottom-12 left-full transform translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384">
-            <defs>
-              <pattern id="d3eb07ae-5182-43e6-857d-35c643af9034" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-              </pattern>
-            </defs>
-            <rect width="404" height="384" fill="url(#d3eb07ae-5182-43e6-857d-35c643af9034)" />
-          </svg>
-        </div>
-      </div>
+
+      {% include "pattern_bottom.html" %}
+
       <div class="relative px-4 sm:px-6 lg:px-8">
         <div class="text-lg max-w-prose mx-auto">
           <h1>
@@ -173,33 +97,7 @@
       </div>
     </div>
 
-    <!-- FOOTER -->
-    <!-- reference : https://tailwindui.com/components/marketing/sections/footers -->
-    <footer class="bg-white" aria-labelledby="footer-heading">
-      <h2 id="footer-heading" class="sr-only">Footer</h2>
-      <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-        <div class="mt-8 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between">
-          <div class="flex space-x-6 md:order-2">
-            <a target="_blank" href="https://www.facebook.com/paperandmorecom" class="text-gray-400 hover:text-gray-500">
-              <span class="sr-only">Facebook</span>
-              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
-              </svg>
-            </a>
-
-            <a target="_blank" href="https://www.instagram.com/paperandmore/" class="text-gray-400 hover:text-gray-500">
-              <span class="sr-only">Instagram</span>
-              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" />
-              </svg>
-            </a>
-          </div>
-          <p class="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-            &copy; 2021 Paper and More. All rights reserved.
-          </p>
-        </div>
-      </div>
-    </footer>
+    {% include "footer.html" %}
 
     <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.5.0/dist/lazyload.min.js"></script>
     <script>

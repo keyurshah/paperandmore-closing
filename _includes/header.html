@@ -1,0 +1,36 @@
+<!-- HEADER MENU -->
+<div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <nav class="relative flex items-center justify-between sm:h-10 md:justify-center" aria-label="Global">
+      <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
+        <div class="flex items-center justify-between w-full md:w-auto">
+          <a href="/">
+            <span class="sr-only">{{ site.title }}</span>
+            <img class="lazy h-8 w-auto sm:h-9" data-src="{{ "/assets/images/paperandmore_logo_no_catchline_1_250x.png" | relative_url }}" alt="">
+          </a>
+          <!-- mobile menu -->
+        </div>
+      </div>
+      <!-- put header menu here -->
+      <div class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
+                <span class="inline-flex rounded-md shadow">
+                  <a href="mailto:{{site.email}}" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-gray-500 bg-white hover:bg-gray-50">
+                    Send virtual hug 🤗
+                  </a>
+                </span>
+      </div>
+    </nav>
+  </div>
+
+  <!--
+    Mobile menu, show/hide based on menu open state.
+
+    Entering: "duration-150 ease-out"
+      From: "opacity-0 scale-95"
+      To: "opacity-100 scale-100"
+    Leaving: "duration-100 ease-in"
+      From: "opacity-100 scale-100"
+      To: "opacity-0 scale-95"
+  -->
+  <!-- mobile menu here -->
+</div>
