@@ -4,9 +4,9 @@
 
 layout: default
 subtitle: a Love Letter
-title: Thank You For 19 Wonderful Years!
+title: Thank You For 20 Wonderful Years!
 
-hero_title_left: Going Out of Business Announcement
+hero_title_left: Thank You For 20 Wonderful Years!
 hero_title_right: ''
 hero_image: ''
 hero_content: ''
