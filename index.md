@@ -23,11 +23,6 @@ The decision to shut down was in the back of mine and my husband's minds since t
 
 
 <figure>
- <img data-src="./images/moll_kluge.jpg">
- <figcaption>(bottom) - Moll Folder & Kluge Die Cutter / Letterpress</figcaption>
-</figure>
-
-<figure>
  <img data-src="https://pm-site-assets-py4.s3.us-east-2.amazonaws.com/products/Group.jpeg">
  <figcaption>(bottom) - Shilpa and Keyur</figcaption>
 </figure>
@@ -89,6 +84,11 @@ Dzulfikar, Lyssette, Sukhwinder, Alex, Steven, Jorge, Eddie, Adriana, Margaret, 
 
 It was a reality check when a couple of our manufacturing equipment (Kluge Letterpress & Moll Marathon Regal Versa Fold) were loaded on this rigger.. leaving us for good.
 
+                <figure>
+                    <img data-src="./images/moll_kluge.jpg">
+                    <figcaption>(Moll Automatic Folder and Kluge Letterpress)</figcaption>
+                </figure>
+
 It’s hard to not fall into the trap of thinking we are taking apart what we’ve built.. but we’ve realized it’s not tearing down, it’s passing on.. thankfully these incredible pieces of equipment are going to other small businesses around the bay area and country wide, whom we are so glad to have met. It brings us peace and closure to know this art will live on!
 
 > Since announcing our closing to our hundreds-of-thousands of clients, I've had the chance to re-connect and reminisce over - 
@@ -101,17 +101,17 @@ I'm ever so grateful for the relationships made throughout the decades from all 
 I wish we could post the thousand emails that came pouring in with overwhelming heartfelt sentiments, but please know every email, message, text, DM, notes in your orders... really meant the world to us. We all sat together to read through each and every one of your message and had the honor or writing back to you all!
 
 <div class="image-gallery">
-    <figure>
-        <img data-src="https://pm-site-assets-py4.s3.us-east-2.amazonaws.com/products/letter.jpeg">
+     <figure>
+        <img data-src="https://pm-site-assets-py4.s3.us-east-2.amazonaws.com/products/letter-5.jpeg">
     </figure>
-    <figure>
-        <img data-src="https://pm-site-assets-py4.s3.us-east-2.amazonaws.com/products/Capture.PNG">
+     <figure>
+        <img data-src="https://pm-site-assets-py4.s3.us-east-2.amazonaws.com/products/letter-kevin.jpeg">
     </figure>
     <figure>
         <img data-src="https://pm-site-assets-py4.s3.us-east-2.amazonaws.com/products/letter1.jpeg">
     </figure>
     <figure>
-        <img data-src="https://pm-site-assets-py4.s3.us-east-2.amazonaws.com/products/letter-kevin.jpeg">
+        <img data-src="https://pm-site-assets-py4.s3.us-east-2.amazonaws.com/products/Capture.PNG">
     </figure>
     <figure>
         <img data-src="https://pm-site-assets-py4.s3.us-east-2.amazonaws.com/products/letter-3.jpeg">
@@ -119,9 +119,10 @@ I wish we could post the thousand emails that came pouring in with overwhelming 
     <figure>
         <img data-src="https://pm-site-assets-py4.s3.us-east-2.amazonaws.com/products/letter4.jpeg">
     </figure>
-    <figure>
-        <img data-src="https://pm-site-assets-py4.s3.us-east-2.amazonaws.com/products/letter-5.jpeg">
+     <figure>
+        <img data-src="https://pm-site-assets-py4.s3.us-east-2.amazonaws.com/products/letter.jpeg">
     </figure>
+
 </div>
 
 I'd like to close by saying...
