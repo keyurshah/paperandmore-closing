@@ -21,6 +21,12 @@ The decision to shut down was in the back of mine and my husband's minds since t
 
 > Their response - **"We are happy for you! you guys gave this your best, and we are honored to be a part of it. We all choose to stay here until the last day our doors are open."** I am forever grateful for these beautiful souls -
 
+
+<figure>
+ <img data-src="./images/moll_kluge.jpg">
+ <figcaption>(bottom) - Moll Folder & Kluge Die Cutter / Letterpress)</figcaption>
+</figure>
+
 <figure>
  <img data-src="https://pm-site-assets-py4.s3.us-east-2.amazonaws.com/products/Group.jpeg">
  <figcaption>(bottom) - Shilpa and Keyur)</figcaption>
