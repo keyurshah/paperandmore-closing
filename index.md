@@ -85,7 +85,7 @@ Dzulfikar, Lyssette, Sukhwinder, Alex, Steven, Jorge, Eddie, Adriana, Margaret, 
 It was a reality check when a couple of our manufacturing equipment (Kluge Letterpress & Moll Marathon Regal Versa Fold) were loaded on this rigger.. leaving us for good.
 
                 <figure>
-                    <img data-src="./images/moll_kluge.jpg">
+                    <img data-src="./images/moll_kluge.jpeg">
                     <figcaption>(Moll Automatic Folder and Kluge Letterpress)</figcaption>
                 </figure>
 
