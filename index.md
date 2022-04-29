@@ -84,10 +84,10 @@ Dzulfikar, Lyssette, Sukhwinder, Alex, Steven, Jorge, Eddie, Adriana, Margaret, 
 
 It was a reality check when a couple of our manufacturing equipment (Kluge Letterpress & Moll Marathon Regal Versa Fold) were loaded on this rigger.. leaving us for good.
 
-                <figure>
-                    <img data-src="./images/moll_kluge.jpeg">
-                    <figcaption>(Moll Automatic Folder and Kluge Letterpress)</figcaption>
-                </figure>
+<figure>
+   <img data-src="https://pm-site-assets-py4.s3.us-east-2.amazonaws.com/products/moll_kluge.jpeg">
+   <figcaption>(Moll Automatic Folder and Kluge Letterpress)</figcaption>
+</figure>
 
 It’s hard to not fall into the trap of thinking we are taking apart what we’ve built.. but we’ve realized it’s not tearing down, it’s passing on.. thankfully these incredible pieces of equipment are going to other small businesses around the bay area and country wide, whom we are so glad to have met. It brings us peace and closure to know this art will live on!
 
