@@ -29,7 +29,7 @@ The decision to shut down was in the back of mine and my husband's minds since t
 
 <figure>
  <img data-src="https://pm-site-assets-py4.s3.us-east-2.amazonaws.com/products/Group.jpeg">
- <figcaption>(bottom) - Shilpa and Keyur)</figcaption>
+ <figcaption>(bottom) - Shilpa and Keyur</figcaption>
 </figure>
 
 Meet the group that handles EVERY part of your order from cutting down large parent sheets, manufacturing the cards, pockets, envelopes, pull, package and ship your orders!
