@@ -24,7 +24,7 @@ The decision to shut down was in the back of mine and my husband's minds since t
 
 <figure>
  <img data-src="./images/moll_kluge.jpg">
- <figcaption>(bottom) - Moll Folder & Kluge Die Cutter / Letterpress)</figcaption>
+ <figcaption>(bottom) - Moll Folder & Kluge Die Cutter / Letterpress</figcaption>
 </figure>
 
 <figure>
